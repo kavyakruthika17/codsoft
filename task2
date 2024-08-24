@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            color: #333;
+        }
+        .about, .skills, .projects, .resume, .contact {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        a {
+            color: #333;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My Landing Page</h1>
+</header>
+
+<div class="container">
+
+    <div class="section about">
+        <h2>About Section</h2>
+        <p>Iam guntuka kavya kruthika aiming to leverage my passion for Artificial Intelligence and Machine learning and my existing knowledge and analytical skills to gain a deep understanding of advanced concepts, develop strong leadership abilities, and equip myself with the necessary tools for a successful career in strategic management and organizational leadership.</p>
+      
+    </div>
+
+    <div class="section skills">
+        <h2>Skills Section</h2>
+        <p>AI,ML,PYTHON.</p>
+    </div>
+
+    <div class="section projects">
+        <h2>Projects Section</h2>
+        <p>The Objective is to detect of objects using You Only Look Once (YOLO) approach. This method has several advantages as compared to other object detection algorithms. In other algorithms like Convolutional Neural Network.</p>
+    </div>
+
+    <div class="section resume">
+        <h2>Resume Section</h2>
+        <a href="C:\Users\KAVYA\Desktop\CODSOFT\resume inter.pdfnm,/">Download Resume</a>
+    </div>
+
+    <div class="section contact">
+        <h2>Contact Section</h2>
+        <p>kavyakruthikag@gmail.com,9618512805.</p>
+
+    </div>
+
+</div>
+
+<footer>
+    <p>&copy; guntuka kavya kruthika. All rights reserved.</p>
+    <a href="#">Click here for a demo</a>
+</footer>
+
+</body>
+</html>
